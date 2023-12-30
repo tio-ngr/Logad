@@ -2,7 +2,7 @@
 The objective of this initiative is to create a system with the capability to detect local languages or dialects based on textual input. Approach involves assembling a dataset comprising text samples in diverse regional languages or dialects, followed by the training of machine learning models for the purpose of identification and classification.
 
 ## Logad Model
-This [Model](/ipynbFile) using Multi Layer Perceptron (MLP) and TF-IDF Vectorizer. The model using datasets from [IndoNLP](https://github.com/IndoNLP/nusax) GitHub account. So far, this model uses three local language datasets: Javanese, Sundanese, and Indonesian. So the model can only detect these three languages.
+This [Model](/ipynbFile) using Multi Layer Perceptron (MLP) and TF-IDF Vectorizer. The model using [datasets](/datasets) from [IndoNLP](https://github.com/IndoNLP/nusax) GitHub account. So far, this model uses three local language datasets: Javanese, Sundanese, and Indonesian. So the model can only detect these three languages.
 
 ## How to Run Logad App
 - Clone or download the [FlaskLogad](/FlaskLogad) folder from my GitHub repository.
