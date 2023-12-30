@@ -16,11 +16,9 @@ This Model using Multi Layer Perceptron (MLP) and TF-IDF Vectorizer. The model u
 ## How to Run App Logad
 - Clone or download the [FlaskLogad](/FlaskLogad) folder from my GitHub repository.
 - Install virtualenv in the folder containing app.py and others:
-    <li>
-        a. Run the command **pip -m venv myenv** (myenv is the environment name, you can change it according to your preference)
-        b. Activate the virtual environment using **myenv\Scripts\activate**
-        c. Install the required packages using **pip install -r requirements.txt**
-    <li>
+    - a. Run the command **pip -m venv myenv** (myenv is the environment name, you can change it according to your preference)
+    - b. Activate the virtual environment using **myenv\Scripts\activate**
+    - c. Install the required packages using **pip install -r requirements.txt**
 - Run the application using the command **python app.py**
 
 ## References
