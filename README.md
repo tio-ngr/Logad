@@ -13,13 +13,13 @@ This [Model](/ipynbFile) using Multi Layer Perceptron (MLP) and TF-IDF Vectorize
 - Run the application using the command -> **python app.py**
 
 ### Example Result 1
-![Web Interface](screenshot/example_result1.PNG)
+![Web Interface](screenshot/exampleResult1.PNG)
 
 ### Example Result 2
-![Web Interface](screenshot/example_result2.PNG)
+![Web Interface](screenshot/exampleResult2.PNG)
 
 ### Example Result 3
-![Web Interface](screenshot/example_result3.PNG)
+![Web Interface](screenshot/exampleResult3.PNG)
 
 ## References
 - https://arxiv.org/pdf/2101.03963
