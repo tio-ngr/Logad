@@ -1,12 +1,4 @@
-import sklearn
-import numpy as np
-import pandas as pd
-import re
-import string
-from flask import Flask, render_template, request, jsonify
-from sklearn.neural_network import MLPClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score
+from flask import Flask, render_template, request
 import pickle
 
 app = Flask(__name__)
@@ -29,7 +21,7 @@ def predict():
     if request.method == 'POST':
         input_kata = request.form['text_input']
         predicted_language, confidence_score = deteksi_bahasa(input_kata)
-        return render_template('index.html', prediction=predicted_language, probability=confidence_score)
+        return render_template('index.html', text_input=input_kata, prediction=predicted_language, probability=confidence_score)
 
 def deteksi_bahasa(input_kata):
     predicted_language = mlp_model.predict([input_kata])
